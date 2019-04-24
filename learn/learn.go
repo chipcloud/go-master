@@ -7,7 +7,7 @@ import (
 
 func main() {
 
-	var name = "王凯"
+	var name = "heihei"
 
 	var age = 25
 
