@@ -24,6 +24,7 @@ func main() {
 	// 打印复制切片的第一个和最后一个元素
 	fmt.Println(copyData[0], copyData[elementCount-1])
 	// 复制原始数据从4到6(不包含)
+	fmt.Println(srcData[1:2])
 	copy(copyData, srcData[4:6])
 	for i := 0; i < 5; i++ {
 		fmt.Printf("%d ", copyData[i])
